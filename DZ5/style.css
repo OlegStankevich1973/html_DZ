@@ -1,0 +1,119 @@
+                                                        * {
+                                                            margin: 0;
+                                                            padding: 0;
+                                                        }
+                                                        
+                                                        a {
+                                                            text-decoration: none;
+                                                        }
+                                                        
+                                                        .center {
+                                                            padding-left: calc(50% - 720px);
+                                                            padding-right: calc(50% - 720px);
+                                                        }
+                                                        
+                                                        .content1 {
+                                                            display: flex;
+                                                            flex-direction: row;
+                                                            flex-wrap: nowrap;
+                                                            align-content: center;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            gap: 60px;
+                                                            margin-top: 100px;
+                                                            margin-bottom: 100px;
+                                                        }
+                                                        
+                                                        .content1_body {
+                                                            width: 381px;
+                                                            display: grid;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            justify-items: start;
+                                                            gap: 21px;
+                                                        }
+                                                        
+                                                        .content1_body_title {
+                                                            font-size: 24px;
+                                                            color: #000000;
+                                                        }
+                                                        
+                                                        .content1_body_text {
+                                                            font-size: 15px;
+                                                            color: #666666;
+                                                        }
+                                                        
+                                                        .content1_body_button {
+                                                            color: #000000;
+                                                            border: none;
+                                                            /*убираем контр кнопки*/
+                                                            background-color: transparent;
+                                                            /*прозрачный фон кнопки*/
+                                                            background-repeat: no-repeat;
+                                                            /*отсутствие фонового повтора*/
+                                                            font-size: 11px;
+                                                        }
+                                                        
+                                                        .content2_header {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            flex-wrap: wrap;
+                                                            align-content: center;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                        }
+                                                        
+                                                        .content2_header_title {
+                                                            font-size: 45px;
+                                                            color: #000000;
+                                                            margin-top: 92px;
+                                                        }
+                                                        
+                                                        .content2_header_text {
+                                                            font-size: 15px;
+                                                            color: #AAAAAA;
+                                                            margin-top: 19px;
+                                                        }
+                                                        
+                                                        .content2_body_info {
+                                                            display: flex;
+                                                            flex-direction: row;
+                                                            flex-wrap: nowrap;
+                                                            align-content: center;
+                                                            align-items: center;
+                                                            justify-content: center;
+                                                            gap: 30px
+                                                        }
+                                                        
+                                                        .content2_body {
+                                                            margin-top: 31px;
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            flex-wrap: wrap;
+                                                            align-content: center;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                        }
+                                                        
+                                                        .content2_body_title {
+                                                            color: #000000;
+                                                            font-size: 24px;
+                                                            margin-top: 25px;
+                                                        }
+                                                        
+                                                        .content2_body_text {
+                                                            color: #AAAAAA;
+                                                            font-size: 15px;
+                                                            margin-top: 22px;
+                                                        }
+                                                        
+                                                        .content2_body_btn {
+                                                            font-size: 13px;
+                                                            color: #FFFFFF;
+                                                            background-color: #F25822;
+                                                            border: none;
+                                                            border-radius: 50px;
+                                                            width: 150px;
+                                                            height: 50px;
+                                                            margin-top: 39px;
+                                                        }
