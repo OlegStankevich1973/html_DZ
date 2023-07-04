@@ -1,0 +1,36 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .box_audio {
+        height: 100vh;
+        /* во весь экран по швысоте */
+        background-color: #eee;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* центрируем блок по центру экрана */
+    }
+    
+    .box_video {
+        height: 100vh;
+        position: relative;
+        /* создаем блок родитель для наложения текста сверху */
+    }
+    
+    .video {
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .heading {
+        position: absolute;
+        /* накладываем текст на блок  */
+        top: 45vh;
+        z-index: 1;
+        /* делаем видимый текст */
+        width: 100vw;
+        text-align: center;
+        /* делаем текст по центру */
+    }
